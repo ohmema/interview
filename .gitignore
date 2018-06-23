@@ -1,5 +1,6 @@
-
+python/.idea
 *.pyc
+*.dat
 java/out
 java/.idea
 java/*.iml
