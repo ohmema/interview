@@ -12,7 +12,7 @@ def isprime(n):
     return True
 
 def get_prime(n):
-    if n <0 :
+    if n <= 0:
         raise ValueError("Input parameter should be greater than 0")
     file = "primes.dat"
     prime_nums = get_prime_from_file(file)
@@ -29,7 +29,6 @@ def get_prime(n):
     return prime_nums
 
 def get_prime_from_file(file):
-
     prime_list =[]
     if os.path.exists(file):
         prime_list = pickle.load(open(file, 'rb'))
