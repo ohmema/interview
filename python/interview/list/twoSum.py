@@ -2,7 +2,7 @@ def twoSum_nlogn(nums, target):
     # O(NlogN)
     nums.sort()
     i = 0
-    #O(nlongN)
+    #O(NlongN)
     for  i in range(len(nums)):
         index = binarySearch(nums, i + 1, len(nums)-1, target - nums[i])
         if index >= 0:
