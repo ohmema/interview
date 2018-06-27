@@ -24,20 +24,10 @@ def isPalindrome(word):
 
     return True
 
-input = "Don't nod."
-print(input, end= " : Palandrome ")
-print(isPalandrome(input))
 
-input = "I did, did I?"
-print(input, end= " : Palandrome ")
-print(isPalandrome(input))
-
-input = "My gym"
-print(input, end= " : Palandrome ")
-print(isPalandrome(input))
-
-
-inputs = [ "Red rum, sir, is murder",
+inputs = [ "Don't nod.",
+            "I did, did I?",
+           "Red rum, sir, is murder",
            "Step on no pets",
             "Top spot",
             "Was it a cat I saw?",
@@ -50,10 +40,10 @@ inputs = [ "Red rum, sir, is murder",
 
 for w in inputs:
     print(w, end=" : Palandrome ")
-    print(isPalandrome(w))
+    print(isPalindrome(w))
 
 
 inputs =[ "ws", " s  a ", " k k d d", ]
 for w in inputs:
     print(w, end=" : Palandrome ")
-    print(isPalandrome(w))
+    print(isPalindrome(w))
