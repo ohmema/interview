@@ -15,35 +15,49 @@ def make_neighbor_tree(tree):
 def make_level_nodes(level_nodes, root, level):
     if root == None:
         return
-    make_level_nodes(level_nodes, root.left, level+1)
+    make_level_nodes(level_nodes, root.left, level + 1)
     nodes = level_nodes.get(level, [])
     nodes.append(root)
     level_nodes[level] = nodes
     make_level_nodes(level_nodes, root.right, level + 1)
 
-#Wrong
-def check_level_tree(root):
+
+def check_level_tree(root, level, visited):
     if root == None:
-        return False
+        return
 
-    level_print(root)
-    if check_level_tree( root.left ) == False:
-        check_level_tree(root.right)
+    if not visited[level] :
+        level_print(level, root)
+        visited[level]=True
 
-def level_print(node):
+    check_level_tree(root.left, level + 1, visited )
+    check_level_tree(root.right, level + 1, visited)
+
+def level_print(level, node):
     current = node
+    print("{} : ".format(level), end=" ")
+
     while current != None:
-        print(current.e, end = " ")
+        print(current.e, end = "->")
         current = current.neighbor
-    print()
+    print("None")
+
+def getDepth(tree, level):
+    if tree == None:
+        return level
+
+    leftDepth = getDepth(tree.left, level+1)
+    rightDepth = getDepth(tree.right, level+1)
+    return max(leftDepth, rightDepth)
 
 tree = Node(3, Node(1, left = Node(-3)), Node(4, right = Node(23)))
 make_neighbor_tree(tree)
-check_level_tree(tree)
+check_level_tree(tree, 0, [False]*getDepth(tree, 0))
+
 print("#"*100)
 tree = Node(3, Node(1, left = Node(-3), right = Node(5, right= Node(-4))), Node(4, right = Node(23, left = Node(6, Node(4)))))
 make_neighbor_tree(tree)
-check_level_tree(tree)
+check_level_tree(tree,0, [False]*getDepth(tree, 0))
 
 
 
