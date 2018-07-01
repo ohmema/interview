@@ -54,7 +54,6 @@ class ArithmeticTree:
                 q.append((current_level+1, temp[1].left))
             if temp[1].right is not None:
                 q.append((current_level +1, temp[1].right))
-
         print()
 
     def inorder(self):
