@@ -1,0 +1,13 @@
+Before setting up run environment, you need,
+python3 and pip3
+
+Before using Selenium, you need to have driver.
+brew install chromedriver for chrome
+
+
+Setup this virtual python environment
+1. pip3 install virtualenv
+2. mkdir pvenv in your workspace
+3. virtualenv -p python3 pvenv
+4. source pvenv/bin/activate
+5. python setup.py install in the root directory
