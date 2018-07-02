@@ -5,3 +5,7 @@ python/.idea
 java/out
 java/.idea
 java/*.iml
+*.project
+*.classpath
+*.class
+*.settings/
