@@ -1,0 +1,67 @@
+package Lab4;
+
+import java.util.Iterator;
+
+public class Text1L extends TextSecondary {
+	public Text1L() {
+		super();
+
+	}
+
+	public Text1L(String string) {
+		this.text = new StringBuffer(string);
+	}
+
+	public Text1L(Text t) {
+		this.text = new StringBuffer(t.toString());
+	}
+
+	@Override
+	public void add(int arg0, char arg1) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public char charAt(int arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int length() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public char remove(int arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Text newInstance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void transferFrom(Text arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Iterator<Character> iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

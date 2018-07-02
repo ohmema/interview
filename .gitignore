@@ -9,3 +9,4 @@ java/*.iml
 *.classpath
 *.class
 *.settings/
+*.idea/*

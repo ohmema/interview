@@ -1,0 +1,92 @@
+package Lab4;
+
+import java.util.Iterator;
+
+public class Text1L extends TextSecondary {
+	public Text1L() {
+		super();
+
+	}
+
+	public Text1L(String string) {
+		this.text = new StringBuffer(string);
+	}
+
+	public Text1L(Text t) {
+		this.text = new StringBuffer(t.toString());
+	}
+
+	/**
+	 * Adds the character c at position pos of this.
+	 */
+	@Override
+	public void add(int pos, char c) {
+
+	}
+
+	/**
+	 * Reports the character at position pos of this.
+	 */
+	@Override
+	public char charAt(int arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/**
+	 * Reports the length of this.
+	 */
+	@Override
+	public int length() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/**
+	 * Removes and returns the character at position pos of this .
+	 */
+	@Override
+	public char remove(int arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/**
+	 * Resets this to its default initial value.
+	 */
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+
+	}
+
+	/**
+	 * Creates and returns a new default-initialized object of the same dynamic
+	 * type as this.
+	 */
+	@Override
+	public Text newInstance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/**
+	 * Moves the value of source to this and resets source to its default
+	 * initial value.
+	 */
+	@Override
+	public void transferFrom(Text arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/**
+ * 
+ */
+	@Override
+	public Iterator<Character> iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

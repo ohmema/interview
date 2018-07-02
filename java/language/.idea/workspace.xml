@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66c23592-fe93-4a2a-a22d-8328ccfb655e" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/interview/array/Main.java" />
+        <option value="$PROJECT_DIR$/src/interview/array/Prime_number_generator.java" />
+        <option value="$PROJECT_DIR$/src/language/arrayutils/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/language/arrays/_Arrays.java" />
+        <option value="$PROJECT_DIR$/src/language/stringutils/_StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/language/collections/collections.java" />
+        <option value="$PROJECT_DIR$/src/language/inheritance/inharitance.java" />
+        <option value="$PROJECT_DIR$/src/language/inheritance/X.java" />
+        <option value="$PROJECT_DIR$/src/language/sss.java" />
+        <option value="$PROJECT_DIR$/src/language/dateAndTime/DateAndTime.java" />
+        <option value="$PROJECT_DIR$/src/language/PriorityQueue/_PriorityQueue2.java" />
+        <option value="$PROJECT_DIR$/src/language/set/_set.java" />
+        <option value="$PROJECT_DIR$/src/language/PriorityQueue/_PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/language/_PriorityQueue/_PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/language/inheritance/A.java" />
+        <option value="$PROJECT_DIR$/src/language/inheritance/B.java" />
+        <option value="$PROJECT_DIR$/src/language/_PriorityQueue/_PriorityQueue2.java" />
+        <option value="$PROJECT_DIR$/src/language/reflection/rflection1.java" />
+        <option value="$PROJECT_DIR$/src/language/reflection/Rflection1.java" />
+        <option value="$PROJECT_DIR$/src/interviews/2.Array/PrimeNumber/PrimeNumber.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="121" />
+    <option name="y" value="102" />
+    <option name="width" value="1927" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="language" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/language" />
+      <recent name="$PROJECT_DIR$/src/language/list" />
+      <recent name="$PROJECT_DIR$/src/language/logger" />
+      <recent name="$PROJECT_DIR$/src/language/string" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MaxDifference">
+    <configuration name="M (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.inheritance.M" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MaxDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAXDifference.MaxDifference" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MAXDifference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Rflection1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.reflection.Rflection1" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="_PriorityQueue (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language._PriorityQueue._PriorityQueue" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language._PriorityQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="_PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.PriorityQueue._PriorityQueue" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language._PriorityQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Rflection1" />
+      <item itemvalue="Application._PriorityQueue" />
+      <item itemvalue="Application._PriorityQueue (1)" />
+      <item itemvalue="Application.M (1)" />
+      <item itemvalue="Application.MaxDifference" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MaxDifference" />
+        <item itemvalue="Application.M (1)" />
+        <item itemvalue="Application.Rflection1" />
+        <item itemvalue="Application._PriorityQueue (1)" />
+        <item itemvalue="Application._PriorityQueue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66c23592-fe93-4a2a-a22d-8328ccfb655e" name="Default" comment="" />
+      <created>1529700355450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529700355450</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="121" y="102" width="1927" height="1000" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496108" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32937366" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/interview/array/Prime_number_generator.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ClassNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language/arrays/_Arrays.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/miscellaneous/System_Envornment_Properties.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/arrays/_char.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/stringutils/_StringUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/arrayutils/_ArrayUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/inheritance/_InnerClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/inheritance/X.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/dateAndTime/DateAndTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/set/_set.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/generic/generic2.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/collections/collections.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/inheritance/sss.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/inheritance/B.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/_PriorityQueue/_PriorityQueue2.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/_PriorityQueue/_PriorityQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/reflection/Rflection1.java" />
+    <entry file="file://$PROJECT_DIR$/src/language/inheritance/A.java" />
+    <entry file="file://$PROJECT_DIR$/src/interview/array/Prime_number_generator.java" />
+    <entry file="file://$PROJECT_DIR$/src/interviews/2.Array/PrimeNumber/PrimeNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/interviews/2.Array/MAXDifference/MaxDifference.java" />
+    <entry file="file://$PROJECT_DIR$/src/interviews/JavaRMI/src/RmiClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/interviews/CS502/HW2/src/HW2.java" />
+    <entry file="file://$PROJECT_DIR$/src/interviews/LinkedList/src/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/interviews/LinkedList/src/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/interviews/LinkedList/src/Linkedlist.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
