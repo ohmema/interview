@@ -61,6 +61,11 @@
               <item name="1.Primitives" type="462c0819:PsiDirectoryNode" />
               <item name="bigIndian" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviews" type="462c0819:PsiDirectoryNode" />
+              <item name="LRUCache" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,7 +146,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="452" y="205" width="1927" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />

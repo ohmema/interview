@@ -5,28 +5,30 @@ Result: need sharpness
 inout: 64 bits
 output: charity bit (true or false)
 """
-def print2Bytes(bits):
+def convert_bits_to_string(num, bits = 32):
     binary=[]
-    for i in range(16):
-        bit = (bits & 1 )  # (bits8 |  0) does not work because other bits will follow.
-        bits = bits >> 1
-        if bit:
+    for _ in range(bits):
+        if num & 1 :
             binary.insert(0,"1")
         else:
             binary.insert(0,"0")
-    print("".join(binary))
+        num = num >> 1
+    return "".join(binary)
 
 
 def get_charitybit(words):
-    rv=0
-    while words: # Error1:  used "len" instead of range
-        print2Bytes(words)
-        rv ^=(words & 1)
+    count = 0
+    while words:
+        if words & 1:
+            count += 1
         words = words >> 1
 
-    return rv
+    return 0 if count%2 == 0 else 1
 
-#print(get_charitybit(28))
+if __name__ == "__main__":
+    inputs =[0,1,2,3,4,5,6,7]
+    for num in inputs:
+        print("{} : {} : {}".format(num, convert_bits_to_string(num), get_charitybit(num)))
 
 
 
