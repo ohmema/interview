@@ -10,6 +10,8 @@ def countbinarystr_strat1_end1(b_str):
         for j in range(i+1, len(b_str)):
             if b_str[i] == "1" and b_str[j] == "1":
                 count += 1
-    print(count)
+    return count
 
-countbinarystr_strat1_end1("1111")
+inputs = ["00100101", "1111"]
+for i in inputs:
+    print("{} : {}".format(i, countbinarystr_strat1_end1(i)))

@@ -1,5 +1,5 @@
 """
-Implement algorithm taht takes A and integer k and returns a subset of k elements of A.
+Implement algorithm that takes A and integer k and returns a subset of k elements of A.
 """
 import random
 
