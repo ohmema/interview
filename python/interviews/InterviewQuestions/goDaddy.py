@@ -1,5 +1,5 @@
 import urllib.request
-import json
+import json, requests
 
 
 # Complete the function below.
@@ -23,6 +23,14 @@ def getMovieTitles1(substr):
     entities.sort(key = lambda a: a["Title"])
     return [ entity["Title"] for entity in entities]
 
-res = getMovieTitles1("spiderman")
+def getMovieTitles3(substr):
+    response = requests.get('https://jsonmock.hackerrank.com/api/movies/search/?Title=' + substr)
+    print(response.json()["data"])
+    entities = response.json()["data"]
+    entities.sort(key=lambda a: a["Title"])
+    return [entity["Title"] for entity in entities]
+
+
+res = getMovieTitles3("spiderman")
 for res_cur in res:
     print(res_cur)
