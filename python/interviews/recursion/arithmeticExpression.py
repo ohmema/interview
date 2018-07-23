@@ -34,7 +34,7 @@ Explanation 1
 
 
 # Complete the arithmeticExpressions function below.
-def arithmeticExpressions(arr):
+def arithmeticExpressions_1(arr):
     return _calculate(arr, 1, arr[0], str(arr[0]))
 
 
@@ -63,4 +63,18 @@ def _calculate(arr, i, result, out):
 inputs = [[22,79, 21],[55,3,45,33,25], [22,79,21]]
 
 for input in inputs:
-    print(arithmeticExpressions(input))
+    print(arithmeticExpressions_1(input))
+
+
+S = ('+', lambda x, y: x + y)
+D = ('-', lambda x, y: x - y)
+M = ('*', lambda x, y: x * y)
+funcs = [S, D, M]
+
+
+def arithmeticExpressions_2(arr):
+    results = []
+    for num in arr:
+        pass
+        
+
