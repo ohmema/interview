@@ -31,7 +31,7 @@ def get_movies_by_year(year):
     returnData = list(filter(lambda a: a['Year'] == year, entities))
     return json.dumps(returnData)
 
-api = threading.Thread(name= "Hello World Restful Api App", target= app.run, kwargs={'port':5000}, daemon=False)
+api = threading.Thread(name= "Hello World Restful Api App", target= app.run, kwargs={'port':5000}, daemon=True)
 #app.run(port=5000)
 api.start()
 
@@ -47,3 +47,5 @@ def getMovieTitles():
 for i in range(1):
     print(getMovieTitles())
     time.sleep(1)
+api.join()
+print("Terminated")

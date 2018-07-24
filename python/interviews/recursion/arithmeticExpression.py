@@ -61,6 +61,72 @@ def _calculate(arr, i, result, out):
 
 
 inputs = [[22,79, 21],[55,3,45,33,25], [22,79,21]]
+#inputs = [[22,79, 21]]
+for input in inputs:
+    print(arithmeticExpressions_1(input))
+
+
+print("#"*100)
+# Complete the arithmeticExpressions function below.
+mul = ('*', lambda x, y: x * y)
+add = ('+', lambda x, y: x + y)
+mus = ("-", lambda x, y: x - y)
+
+funcs = [mul, add, mus]
+
+
+def arithmeticExpressions_2(arr):
+    data = build_data(arr)
+    for val, out in data.items():
+        if val % 101 == 0:
+            return out
+    return ""
+
+
+def build_data(arr):
+    data = {arr[0]:str(arr[0])}
+    for num in arr[1:]:
+        next_data = {}
+        for val, out in data.items():
+            for f in funcs:
+                next_val = f[1](val, num)
+                next_out = out + f[0] + str(num)
+                next_data[next_val]= next_out
+        data = next_data
+    return data
+
+for input in inputs:
+    print(arithmeticExpressions_2(input))
+
+print("#"*100)
+def solution(a):
+    n = len(a)
+    valid = [[False] * 101 for i in range(n)]
+    valid[0][a[0]] = True
+    for i in range(1, n):
+        for v in range(101):
+            if valid[i - 1][v]:
+                valid[i][(v + a[i]) % 101] = True
+                valid[i][(v - a[i]) % 101] = True
+                valid[i][(v * a[i]) % 101] = True
+
+    v = 0
+    for i in range(n - 1, 0, -1):
+        for w in range(101):
+            if valid[i - 1][w]:
+                if (w + a[i]) % 101 == v:
+                    a[i] = '+' + str(a[i])
+                    v = w
+                    break
+                if (w - a[i]) % 101 == v:
+                    a[i] = '-' + str(a[i])
+                    v = w
+                    break
+                if (w * a[i]) % 101 == v:
+                    a[i] = '*' + str(a[i])
+                    v = w
+                    break
+    return ''.join(map(str, a))
 
 for input in inputs:
     print(arithmeticExpressions_1(input))
@@ -78,3 +144,5 @@ def arithmeticExpressions_2(arr):
         pass
         
 
+
+    print(solution(input))
