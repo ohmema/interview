@@ -95,4 +95,14 @@ MONTHS = {"Jan":"01", "Feb":"02", "Mar":"03", "Apr":"04", "May":"05", "Jun":"06"
 YEARS = (1900, 2100)
 
 def formated_date(s):
-    pass
+    words = s.strip().split()
+    day = words[0]
+    mon = words[1]
+    year = words[2]
+
+    r_s = year + "-" + MONTHS[mon] + "-" + DAYS[day]
+    return r_s
+
+inputs = ["26th May  1960", "25th May 1912"]
+for s in inputs:
+    print(formated_date(s))
