@@ -129,4 +129,20 @@ def solution(a):
     return ''.join(map(str, a))
 
 for input in inputs:
+    print(arithmeticExpressions_1(input))
+
+
+S = ('+', lambda x, y: x + y)
+D = ('-', lambda x, y: x - y)
+M = ('*', lambda x, y: x * y)
+funcs = [S, D, M]
+
+
+def arithmeticExpressions_2(arr):
+    results = []
+    for num in arr:
+        pass
+        
+
+
     print(solution(input))
