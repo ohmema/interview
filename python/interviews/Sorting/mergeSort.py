@@ -26,13 +26,13 @@ def merge(a, b):
         i += 1
 
     while j < len(b):
-        c.append(a[j])
+        c.append(b[j])
         j += 1
     return c
 
-l =[9,8,7,6,3]
-z=mergeSort(l)
-print(z)
+#l =[9,8,7,6,3]
+#z=mergeSort(l)
+#print(z)
 
 
 def mergeSort_inplace(s, e, _list):
@@ -60,9 +60,95 @@ def merge_inplace(s, mid, e,_list):
             i += 1
 
 
+def merge_sort3(arr, l, r, swap):
+    if l >= r:
+        return swap
+    #print("{} {}".format(l, r))
+    mid = (r+l + 1) // 2
+    swap = merge_sort3(arr, l, mid -1  , swap)
+    swap = merge_sort3(arr, mid , r, swap)
+    return merge3(arr, l, mid, r, swap)
+
+
+def merge3(arr, l, mid, r, swap):
+    left = arr[l:mid]
+    right = arr[mid:r + 1]
+    i, j = 0, 0
+    t1 = l
+    t2 = r
+    #print(arr[t1:t2+1])
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            arr[l] = left[i]
+            l += 1
+            i += 1
+        elif left[i] > right[j]:
+            arr[l] = right[j]
+            l += 1
+            j += 1
+        else:
+            arr[l] = left[i]
+            l += 1
+            i += 1
+            arr[l] = right[j]
+            l += 1
+            j += 1
+
+    while i < len(left):
+        arr[l] = left[i]
+        l += 1
+        i += 1
+    while j < len(right):
+        arr[l] = right[j]
+        l += 1
+        j += 1
+    #print(arr[t1:t2 + 1])
+
 l =[4,3,5,67,8,3,44,6]
-mergeSort_inplace(0, len(l), l)
+print(sorted(l))
+print(mergeSort(l))
+merge_sort3(l , 0,  len(l)-1, 0)
 print(l)
 
+
+def countInversions(arr):
+    return merge_sort(arr, 0, len(arr) - 1, 0)
+
+
+def merge_sort(arr, l, r, swap):
+    if l >= r:
+        return swap
+    mid = (l + r + 1) // 2
+    swap = merge_sort(arr, l, mid - 1, swap)
+    swap = merge_sort(arr, mid, r, swap)
+    return merge(arr, l, mid, r, swap)
+
+
+def merge(arr, l, mid, r, swap):
+    left = arr[l:mid]
+    right = arr[mid:r + 1]
+    i, j = 0, 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            arr[l] = left[i]
+            l += 1
+            i += 1
+
+        else:
+            arr[l] = right[j]
+            l += 1
+            j += 1
+            swap += len(left) - i
+
+    while i < len(left):
+        arr[l] = left[i]
+        l += 1
+        i += 1
+    while j < len(right):
+        arr[l] = right[j]
+        l += 1
+        j += 1
+
+    return swap
 
 
